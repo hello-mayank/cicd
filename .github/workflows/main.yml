@@ -37,7 +37,7 @@ jobs:
             # Define paths and repo info
             BASE_PATH=${{ secrets.PROJECT_PATH }}         # e.g., /home/ubuntu
             PROJECT_DIR="$BASE_PATH/cicd"
-            REPO_URL="https://github.com/hello-mayank/cicd.gi"
+            REPO_URL="https://github.com/hello-mayank/cicd.git"
 
             # --------------------------------------------------------
             # Check if repo folder exists
