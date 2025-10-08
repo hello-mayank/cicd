@@ -35,9 +35,9 @@ jobs:
             echo "🚀 Starting deployment on server..."
 
             # Define paths and repo info
-            BASE_PATH=${{ secrets.PROJECT_PATH }}         # e.g., /home/azureuser
+            BASE_PATH=${{ secrets.PROJECT_PATH }}         # e.g., /home/ubuntu
             PROJECT_DIR="$BASE_PATH/cicd"
-            REPO_URL="https://github.com/mohneeshchoudhary/cicd.git"
+            REPO_URL="https://github.com/hello-mayank/cicd.gi"
 
             # --------------------------------------------------------
             # Check if repo folder exists
