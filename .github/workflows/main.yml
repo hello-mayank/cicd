@@ -128,6 +128,7 @@ jobs:
             else
               echo "🆕 Project not found. Cloning fresh repository..."
               cd "$BASE_PATH"
+              sudo apt install git -y
               git clone $REPO_URL cicd   # Clone the repository for first time
               cd cicd
             fi
