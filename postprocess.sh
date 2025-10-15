@@ -6,7 +6,7 @@ set -e
 echo "🚀 Starting deployment..."
 
 # Go to app directory
-cd /home/ec2-user/cicd
+cd /home/ubuntu/cicd
 
 # Install dependencies
 python3 -m venv venv
